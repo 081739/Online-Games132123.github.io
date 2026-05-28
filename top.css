@@ -1,0 +1,153 @@
+.games-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+.game-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.game-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.rank {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #007bff;
+  min-width: 50px;
+  text-align: center;
+}
+
+.game-content {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.game-title {
+  font-size: 1.3em;
+  margin-bottom: 8px;
+  color: #2c3e50;
+  margin-top: -140px;
+  margin-left: 250px;
+}
+
+.game-info {
+  display: flex;
+  gap: 20px;
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 250px;
+}
+
+.game-genre, .game-platform {
+  display: flex;
+  align-items: center;
+}
+
+.game-genre::before, .game-platform::before {
+  content: "•";
+  margin: 0 8px;
+}
+
+.game-description {
+  margin-top: 10px;
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.4;
+  margin-left: 250px;
+}
+
+.game-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  transition: background-color 0.2s;
+  margin-left: 250px;
+}
+
+.game-link:hover {
+  background-color: #218837;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+  padding: 40px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 40px;
+  font-size: 1.1em;
+}
+
+.rank-1::after {
+  content: "🥇";
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+
+.rank-2::after {
+  content: "🥈";
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+
+.rank-3::after {
+  content: "🥉";
+  font-size: 1.2em;
+  margin-left: 5px;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background 0.3s;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #0056b3;
+}
+
+.nav-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.page-info {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #333;
+}

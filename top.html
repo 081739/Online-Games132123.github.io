@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homwork.4.1.CSS">
+    <link rel="stylesheet" href="homwork.4.CSS">
+    <link rel="stylesheet" href="top.css">    
+    <link rel="stylesheet" href="homwork.4.2.CSS">`
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_wrapper">
+                <a class="header_logo " href="homwork4.html">
+                    <img class="header_logo-img logo" src="imagis/logo.jpg" alt="header-logo">
+                </a>
+                <nav class="header_menu">
+                    <ul class="header_menu-list">
+                        <li class="header_menu-item">
+                            <a class="header_menu-link" href="homwork4.html#movies">Игры</a>
+                        </li>
+                        <li class="header_menu-item">
+                            <a class="header_menu-link" href="top.html">Топ-30</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a class="header_cta" href="#subscribe">Подписаться</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="top">
+            <div class="games-list" id="games-list">
+                <p class="loading">Загрузка топ-25 игр...</p>
+            </div>
+            <div class="pagination-controls">
+                <button id="prev-page" class="nav-btn" disabled>← Назад</button>
+                <span id="current-page-info" class="page-info">Страница 1 из 3</span>
+                <button id="next-page" class="nav-btn">Вперёд →</button>
+            </div>
+        </section>
+        <section class="subscribe" id="subscribe">
+            <div class="container">
+                <h2 class="subscribe_title title">Обратная связь</h2>
+                <Div class="subscribe_wrapper">
+                     <p class="subscribe_text">Есть вопросы пиши!</p>
+                    <form class="subscribe_form">
+                        <input class="subscribe_form-input" id="name" placeholder="Имя" type="text">
+                        <input class="subscribe_form-input" id="email" placeholder="Почта" type="email">
+                        <input class="subscribe_form-input" id="message" placeholder="Сообщение" type="text">
+                        <button class="subscribe_form-btn">Отправить</button>
+                    </form> 
+                </Div>
+            </div> 
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper-top">
+                <a class="footer_logo " href="homwork4.html">
+                    <img class="footer_logo-img logo" src="imagis/logo.jpg" alt="footer-logo">
+                </a>
+                <nav class="footer_menu">
+                    <ul class="footer_menu-list">
+                        <li class="footer_menu-item">
+                            <a class="footer_menu-link" href="homwork4.html#movies">Игры</a>
+                        </li>
+                        <li class="footer_menu-item">
+                            <a class="footer_menu-link" href="top.html">Топ-30</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer_contacts">
+                    <a class="footer_contacts-item" href="mailto:kino@kino.ru">Game@game.ru</a>
+                    <a class="footer_contacts-item" href="tel:+78888888888">8-888-888-88-88</a>
+                    <a class="footer_contacts-item" href="#">
+                        <img class="footer_contacts-item-img" src="imagis/wk.jpg" alt="vk">
+                    </a>
+                </div>
+            </div>
+            <div class="footer_wrapper-bottom">
+                <p class="footer_contacts-copy">Отправляя любую форму на этом сайте вы соглашаесть с <a class="footer_contacts-pol" href="politik.html">политикой конфиденциальности</a></p>
+                <p class="footer_contacts-copy">Game © 2026</p>
+            </div>
+        </div>
+    </footer>
+    <script src="top.JS"></script>
+    <script src="homwork.4,1.JS"></script>
+</body>
+</html>

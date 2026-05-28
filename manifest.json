@@ -1,0 +1,10 @@
+{
+  "name": "Онлайн Игры",
+  "short_name": "онлайн игры",
+  "theme_color": "#17b7c3",
+  "background_color": "#131313",
+  "display": "browser",
+  "orientation": "landscape",
+  "scope": "/",
+  "start_url": "/"
+}
